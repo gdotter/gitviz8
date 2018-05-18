@@ -1,0 +1,54 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "45dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s2a8043313034aab82eb9b8df244bbe0",
+    "_text_": "Get Current Battery Level",
+    "_top_": {
+        "type": "string",
+        "value": "90dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "70%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "49.91%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sc4e049e70b54ac0a2c87b174dd522c9",
+    "id": "btnGetBattery",
+    "ide_onClick": "AS_Button_fa3d24a334684d83877e55210ddad668",
+    "info": null,
+    "isvisible": true,
+    "kuid": "31aa21ecf3ce4bd5a9dc07e4aced3cc9",
+    "name": "kony.ui.Button",
+    "parent": "frmHome",
+    "pf": "frmBatteryStatus",
+    "wType": "Button",
+    "zindex": 1
+}

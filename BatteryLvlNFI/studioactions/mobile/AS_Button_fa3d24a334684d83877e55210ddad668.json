@@ -1,0 +1,28 @@
+{
+    "AS_Button_fa3d24a334684d83877e55210ddad668": {
+        "id": "AS_Button_fa3d24a334684d83877e55210ddad668",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmBatteryStatus",
+            "type": "forms",
+            "platform": null,
+            "KUID": "83e1d7625c9f4709998cce9027d67b35"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___c77c2d65b47a467e98afb70096949140",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "getDeviceInfo",
+            "display": "getDeviceInfo",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

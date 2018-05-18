@@ -1,0 +1,80 @@
+{
+    "NativeFunctionAPI": {
+        "iOS": {
+            "10.0": {
+                "Foundation-iOS-10.0": {
+                    "title": "Foundation",
+                    "platform": "iOS",
+                    "os": "10.0",
+                    "url": "/visualizer/nativeframeworks/ios/4.0/Foundation-iOS-10.0.zip",
+                    "checksum": "9c99cf2b7485bc61a26eef1b513bd1ea229818d3",
+                    "filepath": "C://KonyWorkspace/workspace7/KonyVizEWS7.2/BatteryLvlNFI/nativebindings/iOS/10.0/Foundation-iOS-10.0.zip",
+                    "enable": false
+                },
+                "UIKit-iOS-10.0": {
+                    "title": "UIKit",
+                    "platform": "iOS",
+                    "os": "10.0",
+                    "url": "/visualizer/nativeframeworks/ios/4.0/UIKit-iOS-10.0.zip",
+                    "checksum": "88160cfcb7fcec09373383b820cf75f7a31f0715",
+                    "filepath": "C://KonyWorkspace/workspace7/KonyVizEWS7.2/BatteryLvlNFI/nativebindings/iOS/10.0/UIKit-iOS-10.0.zip",
+                    "enable": true
+                },
+                "AVFoundation-iOS-10.0": {
+                    "title": "AVFoundation",
+                    "platform": "iOS",
+                    "os": "10.0",
+                    "url": "/visualizer/nativeframeworks/ios/5.0/AVFoundation-iOS-10.0.zip",
+                    "checksum": "3f208e28c95970ace60cdde30a49dc30a4d31a31",
+                    "projectName": "BatteryLvlNFI",
+                    "filepath": "C:\\KonyWorkspace\\workspace80\\BatteryLvlNFI\\nativebindings\\iOS\\10.0\\AVFoundation-iOS-10.0.zip",
+                    "enable": true
+                }
+            },
+            "9.3": {
+                "UIKit-iOS-9.3": {
+                    "title": "UIKit",
+                    "platform": "iOS",
+                    "os": "9.3",
+                    "url": "/visualizer/nativeframeworks/ios/1.0/UIKit-iOS-9.3.zip",
+                    "checksum": "810c52b612d036e96af89b552aa4afa708830f9a",
+                    "filepath": "C://KonyWorkspace/workspace7/BatteryLvlNFI/nativebindings/iOS/9.3/UIKit-iOS-9.3.zip",
+                    "enable": false
+                }
+            },
+            "11.0": {
+                "Kony_SyncV2-iOS-11.0": {
+                    "title": "Kony_SyncV2",
+                    "platform": "iOS",
+                    "os": "11.0",
+                    "url": "C:\\KonyVisualizerE8\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\482\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-iOS-11.0.zip",
+                    "filepath": "C:\\KonyWorkspace\\workspace80\\BatteryLvlNFI\\nativebindings\\iOS\\11.0\\Kony_SyncV2-iOS-11.0.zip",
+                    "enable": true
+                }
+            }
+        },
+        "Android": {
+            "API level 23": {
+                "android.os-Android-API level 23": {
+                    "title": "android.os",
+                    "platform": "Android",
+                    "os": "API level 23",
+                    "url": "/visualizer/nativeframeworks/android/1.0/android.os-Android-4.0.zip",
+                    "checksum": "de5b237fa8c25c9d37da33a2eeb957d76b755823",
+                    "filepath": "C://KonyWorkspace/workspace7/BatteryLvlNFI/nativebindings/Android/API level 23/android.os-Android-4.0.zip",
+                    "enable": true
+                }
+            },
+            "4.0": {
+                "Kony_SyncV2-Android-4.0": {
+                    "title": "Kony_SyncV2",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "url": "C:\\KonyVisualizerE8\\Kony_Visualizer_Enterprise\\configuration\\org.eclipse.osgi\\bundles\\459\\1\\.cp\\resources\\sdk\\nativeBindings\\Kony_SyncV2-Android-4.0.zip",
+                    "filepath": "C:\\KonyWorkspace\\workspace80\\BatteryLvlNFI\\nativebindings\\Android\\4.0\\Kony_SyncV2-Android-4.0.zip",
+                    "enable": true
+                }
+            }
+        }
+    }
+}
