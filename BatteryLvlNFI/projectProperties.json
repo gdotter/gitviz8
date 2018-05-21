@@ -6,7 +6,7 @@
     "wap_android440_fontsize": "12",
     "apppackagekey": "",
     "nativeContainerProperties": {
-        "isModified": true,
+        "isModified": false,
         "isEnableJSContainer": true,
         "isEnableJSContainerAndroid": true,
         "isEnableJSContaineriOS": true
@@ -226,5 +226,8 @@
     "project_version": "sprint30",
     "wap_ip_fontsize": "12",
     "category": "app",
-    "createdVizVersion": "7.2.1.1"
+    "createdVizVersion": "7.2.1.1",
+    "i18nLayoutConfig": {},
+    "defaultlocalekey": null,
+    "isI18nLayoutConfigEnabled": false
 }

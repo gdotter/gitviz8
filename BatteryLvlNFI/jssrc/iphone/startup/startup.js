@@ -1,17 +1,20 @@
 //startup.js file
+kony.print = function() {
+    return;
+};
 var globalhttpheaders = {};
 var appConfig = {
     appId: "BatteryLvlNFI",
-    appName: "BatteryLvlNFI",
+    appName: "Battery NFI Demo",
     appVersion: "1.0.0",
     platformVersion: null,
     serverIp: "192.168.0.2",
     serverPort: "80",
     secureServerPort: "443",
-    isDebug: true,
+    isDebug: false,
     middlewareContext: "BatteryLvlNFI",
     isMFApp: false,
-    eventTypes: ["FormEntry", "ServiceRequest", "Error", "Crash"],
+    eventTypes: ["FormEntry", "Error", "Crash"],
     url: "https://konysecloud.konycloud.com/BatteryLvlNFI/MWServlet",
     secureurl: "https://konysecloud.konycloud.com/BatteryLvlNFI/MWServlet"
 };
@@ -22,6 +25,8 @@ function appInit(params) {
     kony.application.setCheckBoxSelectionImageAlignment(constants.CHECKBOX_SELECTION_IMAGE_ALIGNMENT_RIGHT);
     kony.application.setDefaultTextboxPadding(false);
     kony.application.setRespectImageSizeForImageWidgetAlignment(true);
+    initializeMVCTemplates();
+    initializeUserWidgets();
     frmBatteryStatusGlobals();
     setAppBehaviors();
 };
@@ -37,8 +42,8 @@ function setAppBehaviors() {
 };
 
 function themeCallBack() {
-    callAppMenu();
     initializeGlobalVariables();
+    callAppMenu();
     kony.application.setApplicationInitializationEvents({
         init: appInit,
         showstartupform: function() {
@@ -60,9 +65,14 @@ function loadResources() {
 function onSuccessSDKCallBack() {
     kony.theme.setCurrentTheme("default", themeCallBack, themeCallBack);
 }
+
+function onSuccess(oldlocalname, newlocalename, info) {
+    loadResources();
+};
+
+function onFailure(errorcode, errormsg, info) {
+    loadResources();
+};
 kony.application.setApplicationMode(constants.APPLICATION_MODE_NATIVE);
 //If default locale is specified. This is set even before any other app life cycle event is called.
-loadResources();
-// If you wish to debug Application Initialization events, now is the time to
-// place breakpoints.
-debugger;
+kony.i18n.setDefaultLocaleAsync("null", onSuccess, onFailure, null);

@@ -1,0 +1,129 @@
+{
+    "@class": "com.kony.gen.appprops.KVizAppProps",
+    "appidkey": "Camera",
+    "applogokey": "icon.png",
+    "appmenu": {
+        "desktop": {
+            "data": [
+                {
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "kuid": "e02e2ed52b5a4a3baa012d60982478b5",
+                    "title": "Item 1"
+                },
+                {
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "kuid": "1224b5b761a94ac1bb709c01fed0390d",
+                    "title": "Item 2"
+                },
+                {
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "kuid": "cd6c045edcfb4c638e47ba4274d36012",
+                    "title": "Item 3"
+                },
+                {
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "kuid": "23f383af0bb54ccf9fa470a8c4956855",
+                    "title": "Item 4"
+                }
+            ]
+        },
+        "mobile": {
+            "data": []
+        },
+        "tablet": {
+            "data": []
+        },
+        "wType": "Appmenu"
+    },
+    "appnamekey": "Camera Demo",
+    "apppackagekey": "com.kony.Camera",
+    "appversionkey": "1.0.0",
+    "build": "release",
+    "category": "app",
+    "cordovaVersionInfo": {
+        "useGlobalCordova": false
+    },
+    "createdVizVersion": "7.2.1",
+    "createdgaversion": "6.5.1.GA_v201507231955",
+    "currentgaversion": "8.1.4",
+    "defaulttheme": "KonyTheme",
+    "desktopwebaligenmentoption": "left",
+    "desktopwebbasefontsize": "16",
+    "desktopwebwidthoption": "Percentage",
+    "desktopwebwidthval": "100",
+    "enableCordova": false,
+    "enableIdForAutomation": false,
+    "enableactionbar": false,
+    "ide_appEvents": {},
+    "ipadlandscapemodekey": "both",
+    "iphonebundleidentifierkey": "com.kony.Camera",
+    "iphonebundleversionkey": "1.0",
+    "iphoneipadglossyeffectkey": "false",
+    "isA11yConfigEnabled": false,
+    "isDpScaleFactor": true,
+    "isNewAppWithRespectToAndroidPackageName": "true",
+    "konyVizVersion": "8.1.4",
+    "mastersProperties": {
+        "masterVersion": "2.0.0"
+    },
+    "mwportkey": "80",
+    "nativeContainerProperties": {
+        "isModified": true,
+        "isEnableJSContainer": true,
+        "isEnableJSContainerAndroid": true,
+        "isEnableJSContaineriOS": true
+    },
+    "pasteboardType": "2",
+    "project_version": "sprint30",
+    "referenceWidth": "320",
+    "spaandroidtabbasefontsize": "17",
+    "spaipadbasefontsize": "17",
+    "startupformkey": "38041d9fd81a4d869d01d64eb0c7f0d1",
+    "statusBarHidden": "false",
+    "tabletstartupformkey": "p2kwiet121141612615477",
+    "vendornamekey": "KonyLabs",
+    "wap_android240_fontsize": "10",
+    "wap_android320_fontsize": "12",
+    "wap_android360_fontsize": "13",
+    "wap_android400_fontsize": "14",
+    "wap_android440_fontsize": "15",
+    "wap_android480_fontsize": "16",
+    "wap_android640_fontsize": "19",
+    "wap_android_fontsize": "10",
+    "wap_bb240_fontsize": "12",
+    "wap_bb320_fontsize": "12",
+    "wap_bb360_fontsize": "12",
+    "wap_bb400_fontsize": "12",
+    "wap_bb440_fontsize": "12",
+    "wap_bb480_fontsize": "12",
+    "wap_ip_fontsize": "12",
+    "wap_spaandroidtab_fontsize": "17",
+    "wap_spaandroidtabhdpi_fontsize": "16",
+    "wap_spaandroidtabldpi_fontsize": "17",
+    "wap_spaandroidtabmdpi_fontsize": "14",
+    "wap_spaandroidtabxhdpi_fontsize": "18",
+    "wap_spaipad_fontsize": "17",
+    "wap_spawindowstab_fontsize": "12",
+    "wap_winphone320_fontsize": "12",
+    "wap_winphone480_fontsize": "12",
+    "watchos_longlooknotificationicon_38": "",
+    "watchos_longlooknotificationicon_42": "",
+    "watchos_notificationcentericon_38": "",
+    "watchos_notificationcentericon_42": "",
+    "watchos_shortlooknotificationicon_38": "",
+    "watchos_shortlooknotificationicon_42": "",
+    "winmangotiletitlekey": "SampleCameraApp",
+    "winmobileguidkey": "cec95c7d-d678-44a7-81c7-fd43c07b5427"
+}

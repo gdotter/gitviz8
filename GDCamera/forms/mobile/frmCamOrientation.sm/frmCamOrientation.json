@@ -1,0 +1,201 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s1dbbb989f8c4896bb55f3793d3ee2dc",
+    "_title_": "Camera Orientationn",
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "addWidgetsdone": false,
+    "allboxes": [],
+    "android": {
+        "@class": "com.kony.gen.viz.model.container.property.form.AndroidFormProperty",
+        "displayOrientation": 3,
+        "footerOverlap": false,
+        "headerOverlap": false,
+        "inTransitionConfig": {
+            "formAnimation": 0
+        },
+        "isModal": false,
+        "menuPosition": 2,
+        "needAppMenu": true,
+        "outTransitionConfig": {
+            "formAnimation": 0
+        },
+        "psp": {
+            "windowSoftInputMode": 1
+        },
+        "render": true,
+        "titleBar": true
+    },
+    "canUpdateUI": true,
+    "children": [
+        "camPortrait",
+        "camLandscape",
+        "hbox121141612661998",
+        "lblOrientation"
+    ],
+    "containerheightreference": 1,
+    "containerweight": 100,
+    "currentLocale": "default",
+    "device": "iPhone6",
+    "displayorientation": 3,
+    "enabledforidletimeout": false,
+    "footeroverlap": false,
+    "footersId": "",
+    "headeroverlap": false,
+    "headersId": "",
+    "id": "frmCamOrientation",
+    "info": null,
+    "initdone": false,
+    "intransitionconfig": {
+        "formTransition": "None"
+    },
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.container.property.form.IPhoneFormProperty",
+        "displayOrientation": 3,
+        "footerOverlap": false,
+        "headerOverlap": false,
+        "inTransitionConfig": {
+            "transitionDirection": "none",
+            "transitionEffect": "none"
+        },
+        "isModal": false,
+        "needAppMenu": true,
+        "outTransitionConfig": {
+            "transitionDirection": "none",
+            "transitionEffect": "none"
+        },
+        "psp": {
+            "bounces": true,
+            "configureExtendBottom": false,
+            "configureExtendTop": false,
+            "configureStatusBarStyle": false,
+            "extendBottom": false,
+            "extendTop": false,
+            "formTransparencyDuringPostShow": 100,
+            "inputAccessoryViewType": 1,
+            "needsIndicatorDuringPostShow": true,
+            "statusBarStyle": "STATUS_BAR_STYLE_DEFAULT",
+            "titleBarAttributes": {
+                "barStyle": 0,
+                "hidesBackButton": true,
+                "kuid": "j121f0b880044c6b9c3d68e1ecbec590",
+                "leftBarButtonItems": [
+                    {
+                        "kuid": "aaaa1fc936e043528403a59b7e0cc0b0",
+                        "leftButtonText": "",
+                        "leftTitle": "Back",
+                        "prevFormTitle": false,
+                        "titleBarLeftSideView": "title",
+                        "type": 4
+                    }
+                ],
+                "leftItemsSupplementBackButton": true,
+                "prompt": "",
+                "renderTitleText": true,
+                "rightBarButtonItems": [],
+                "tintColor": "ffffffff",
+                "translucent": true
+            }
+        },
+        "render": true,
+        "titleBar": true
+    },
+    "ismodal": false,
+    "isvisible": true,
+    "kuid": "p2kwiet121141612615500",
+    "margininpixel": false,
+    "menuposition": 2,
+    "name": "kony.ui.Form2",
+    "needappmenu": true,
+    "outtransitionconfig": {
+        "formTransition": "None"
+    },
+    "paddinginpixel": false,
+    "percent": true,
+    "platform": "iphone",
+    "prevDevice": "iPhone6",
+    "prevPlatform": "iphone",
+    "restorewidgetprototypes": true,
+    "retainscrollposition": false,
+    "shellCSS": "iOS_iPhone6",
+    "spa": {
+        "@class": "com.kony.gen.viz.model.container.property.form.SPAFormProperty",
+        "inTransitionConfig": {
+            "formTransition": "none"
+        },
+        "isModal": false,
+        "outTransitionConfig": {
+            "formTransition": "none"
+        },
+        "psp": {
+            "dockableAppMenu": true,
+            "dockableFooter": true,
+            "dockableHeader": true
+        }
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.container.property.form.SPAAndroidFormProperty",
+        "needAppMenu": true,
+        "render": true
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.container.property.form.SPABBFormProperty",
+        "needAppMenu": true,
+        "render": true
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.container.property.form.SPABBNTHFormProperty",
+        "needAppMenu": true,
+        "render": true
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.container.property.form.SPAIPhoneFormProperty",
+        "needAppMenu": true,
+        "render": true
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.form.SPAWinPhone8FormProperty",
+        "needAppMenu": true,
+        "render": true
+    },
+    "templateType": "forms",
+    "titleBarSkin": "s7ab4c316a30415ea4f47221b0ced3ef",
+    "titlebar": true,
+    "transparencybehindthepopup": 100,
+    "type": 3,
+    "wType": "Form",
+    "widgetalignment": 1,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.container.property.form.WinPhone8FormProperty",
+        "displayOrientation": 3,
+        "inTransitionConfig": {
+            "transitionSpeed": 0
+        },
+        "needAppMenu": true,
+        "outTransitionConfig": {
+            "transitionSpeed": 0
+        },
+        "psp": {
+            "animateHeaderFooter": false,
+            "maxAppMenuButtons": 4
+        },
+        "render": true
+    }
+}

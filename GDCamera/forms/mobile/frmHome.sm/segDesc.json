@@ -1,0 +1,141 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bounces_": false,
+    "_data_": [
+        {
+            "imgBullet": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bullet.png"
+            },
+            "lblItemDesc": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Capture Pictures using the Native Camera"
+            }
+        },
+        {
+            "imgBullet": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bullet.png"
+            },
+            "lblItemDesc": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Overlaying the widgets on the Native Camera view"
+            }
+        },
+        {
+            "imgBullet": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bullet.png"
+            },
+            "lblItemDesc": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Controlling the Camera Access Modes"
+            }
+        },
+        {
+            "imgBullet": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "bullet.png"
+            },
+            "lblItemDesc": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Specifying the orientation of the Image"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "180dp"
+    },
+    "_indicator_": "none",
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "190dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "counter": "03",
+    "focusedindex": null,
+    "focuseditem": null,
+    "generatedtemplate": "3a4df0c7a6b94469801eb99809403be3",
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segDesc",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "bounces": false,
+            "indicator": "none",
+            "showProgressIndicator": false
+        }
+    },
+    "isvisible": true,
+    "kuid": "cf4cc9f8b2a0423e8218accd10d8d821",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "frmHome",
+    "pf": "frmHome",
+    "retainselection": false,
+    "rowTemplateId": "3a4df0c7a6b94469801eb99809403be3",
+    "rowcounter": 3,
+    "rowfocusskin": "s5d5cbe238ba4f86a39474be93bbc81a",
+    "rowskin": "s1ac5e6f73894fa89f4c20fa6b4251be",
+    "rowtemplate": "FBox0c7082933375f40",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s777a95460a440fe9d71358cea9c41c7",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorrequired": false,
+    "showprogressindicator": false,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "flxDesc": "flxDesc",
+        "imgBullet": "imgBullet",
+        "lblItemDesc": "lblItemDesc"
+    },
+    "zindex": 1
+}

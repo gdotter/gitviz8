@@ -1,0 +1,142 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        4,
+        10,
+        4,
+        2
+    ],
+    "_padding_": [
+        1,
+        4,
+        1,
+        4
+    ],
+    "_skin_": "s8acd2ba85794c0da93eb7d8c9048aa1",
+    "_text_": "Camera",
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "accessmode": "public",
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.AndroidCameraProperty",
+        "accessMode": "public",
+        "compressionLevel": 0,
+        "enableOverlay": true,
+        "overlayConfig": {
+            "overlayForm": "p2kwiet121141612619861",
+            "referenceImageToCrop": "None",
+            "tapAnyWhere": false
+        },
+        "render": true
+    },
+    "canUpdateUI": true,
+    "compressionlevel": 0,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "enableoverlay": true,
+    "focusskin": "s2965125da744f48b079058fc57b932d",
+    "hexpand": true,
+    "id": "cameraOverlay",
+    "ide_onCapture": "frmCamOverlay_cameraOverlay_onCapture_seq0",
+    "info": null,
+    "ipad": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.IPadCameraProperty",
+        "_padding_": [
+            5,
+            21,
+            5,
+            21
+        ],
+        "accessMode": "public",
+        "compressionLevel": 0,
+        "enableOverlay": true,
+        "overlayConfig": {
+            "overlayForm": "p2kwiet121141612619861",
+            "referenceImageToCrop": "None"
+        },
+        "padding": [
+            5,
+            21,
+            5,
+            21
+        ],
+        "paddingInPixel": true,
+        "psp": {
+            "captureOrientation": 0,
+            "imageFormat": 0,
+            "nativeUserInterface": true
+        },
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet121141612619767",
+    "margininpixel": false,
+    "name": "kony.ui.Camera",
+    "paddinginpixel": false,
+    "parent": "frmCamOverlay",
+    "pf": "frmCamOverlay",
+    "scalefactor": 80,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.SPACameraProperty"
+    },
+    "spaandroidtablet": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.SPAAndroidTabletCameraProperty",
+        "render": false
+    },
+    "spaipad": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.SPAIPadCameraProperty",
+        "render": false
+    },
+    "spawindowstablet": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.SPAWindowsTabletCameraProperty",
+        "render": false
+    },
+    "vexpand": false,
+    "wType": "Camera",
+    "widgetalignment": 5,
+    "windows8": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.Windows8CameraProperty",
+        "_margin_": [
+            10,
+            1,
+            10,
+            1
+        ],
+        "_padding_": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "accessMode": "public",
+        "enableOverlay": true,
+        "margin": [
+            10,
+            1,
+            10,
+            1
+        ],
+        "marginInPixel": false,
+        "overlayConfig": {
+            "overlayForm": "p2kwiet121141612619861",
+            "referenceImageToCrop": "None",
+            "tapAnyWhere": false
+        },
+        "padding": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "paddingInPixel": true,
+        "psp": {
+            "enablePhotoCropFeature": false
+        },
+        "render": true
+    }
+}

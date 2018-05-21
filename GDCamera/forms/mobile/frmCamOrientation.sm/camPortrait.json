@@ -1,0 +1,189 @@
+{
+    "DNDConfig": null,
+    "_enabled_": false,
+    "_margin_": [
+        4,
+        5,
+        4,
+        2
+    ],
+    "_padding_": [
+        1,
+        4,
+        1,
+        4
+    ],
+    "_skin_": "s8acd2ba85794c0da93eb7d8c9048aa1",
+    "_text_": "PORTRAIT",
+    "accessibilityconfig": {
+        "a11yHidden": false,
+        "a11yHint": "",
+        "a11yLabel": "",
+        "a11yValue": ""
+    },
+    "accessmode": "public",
+    "android": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.AndroidCameraProperty",
+        "accessMode": "public",
+        "compressionLevel": 0,
+        "enableOverlay": false,
+        "overlayConfig": {
+            "overlayForm": "",
+            "referenceImageToCrop": "None",
+            "tapAnyWhere": false
+        },
+        "render": true
+    },
+    "canUpdateUI": true,
+    "compressionlevel": 0,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "enableoverlay": false,
+    "focusskin": "s2965125da744f48b079058fc57b932d",
+    "hexpand": true,
+    "id": "camPortrait",
+    "ide_onCapture": "AS_Camera_7f9a33feb16b455bb66a0c58fd813c60",
+    "info": null,
+    "iphone": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.IPhoneCameraProperty",
+        "_padding_": [
+            3,
+            12,
+            3,
+            12
+        ],
+        "accessMode": "public",
+        "compressionLevel": 0,
+        "enableOverlay": false,
+        "overlayConfig": {
+            "overlayForm": "",
+            "referenceImageToCrop": "image21927419382155502"
+        },
+        "padding": [
+            3,
+            12,
+            3,
+            12
+        ],
+        "paddingInPixel": true,
+        "psp": {
+            "captureOrientation": 2,
+            "imageFormat": 0,
+            "nativeUserInterface": true
+        },
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "p2kwiet121141612620064",
+    "margininpixel": false,
+    "name": "kony.ui.Camera",
+    "paddinginpixel": false,
+    "parent": "frmCamOrientation",
+    "pf": "frmCamOrientation",
+    "scalefactor": 80,
+    "spa": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.SPACameraProperty"
+    },
+    "spaan": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.SPAAndroidCameraProperty",
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "padding": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "paddingInPixel": false,
+        "render": false
+    },
+    "spabb": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.SPABBCameraProperty",
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "padding": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "paddingInPixel": false,
+        "render": false
+    },
+    "spabbnth": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.SPABBNTHCameraProperty",
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "padding": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "paddingInPixel": false,
+        "render": false
+    },
+    "spaip": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.SPAIPhoneCameraProperty",
+        "_padding_": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "padding": [
+            0,
+            0,
+            0,
+            0
+        ],
+        "paddingInPixel": false,
+        "render": false
+    },
+    "spawinphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.SPAWinPhone8CameraProperty",
+        "render": false
+    },
+    "vexpand": false,
+    "wType": "Camera",
+    "widgetalignment": 5,
+    "winphone8": {
+        "@class": "com.kony.gen.viz.model.component.property.camera.WinPhone8CameraProperty",
+        "_padding_": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "accessMode": "public",
+        "enableOverlay": false,
+        "overlayConfig": {
+            "overlayForm": "",
+            "referenceImageToCrop": "None",
+            "tapAnyWhere": false
+        },
+        "padding": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "paddingInPixel": true,
+        "psp": {
+            "enablePhotoCropFeature": false
+        },
+        "render": true
+    }
+}

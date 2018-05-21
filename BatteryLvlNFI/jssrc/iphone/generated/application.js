@@ -138,11 +138,11 @@ function mfintegrationsecureinvokerasync(inputParam, serviceID, operationID, cal
             inputParam["httpheaders"] = mergeHeaders({}, globalhttpheaders);
         };
     };
-    kony.print("Async : Invoking service through mobileFabric with url : " + url + " service id : " + serviceID + " operationid : " + operationID + "\n input params" + JSON.stringify(inputParam));
+    kony.print("Async : Invoking service through Kony Fabric with url : " + url + " service id : " + serviceID + " operationid : " + operationID + "\n input params" + JSON.stringify(inputParam));
     if (kony.mbaas) {
         kony.mbaas.invokeMbaasServiceFromKonyStudio(url, inputParam, serviceID, operationID, callBack);
     } else {
-        alert("Unable to find the mobileFabric SDK for KonyStudio. Please download the SDK from the Kony Cloud Console and add as module to the Kony Project.");
+        alert("Unable to find the Kony Fabric SDK for KonyStudio. Please download the SDK from the Kony Cloud Console and add as module to the Kony Project.");
     }
 };
 
@@ -162,38 +162,38 @@ function mfintegrationsecureinvokersync(inputParam, serviceID, operationID) {
             inputParam["httpheaders"] = mergeHeaders({}, globalhttpheaders);
         };
     };
-    kony.print("Invoking service through mobileFabric with url : " + url + " service id : " + serviceID + " operationid : " + operationID + "\n input params" + JSON.stringify(inputParam));
+    kony.print("Invoking service through Kony Fabric with url : " + url + " service id : " + serviceID + " operationid : " + operationID + "\n input params" + JSON.stringify(inputParam));
     if (kony.mbaas) {
         resulttable = kony.mbaas.invokeMbaasServiceFromKonyStudioSync(url, inputParam, serviceID, operationID);
         kony.print("Result table for service id : " + serviceID + " operationid : " + operationID + " : " + JSON.stringify(resulttable));
     } else {
-        alert("Unable to find the mobileFabric SDK for KonyStudio. Please download the SDK from the Kony Cloud Console and add as module to the Kony Project.");
+        alert("Unable to find the Kony Fabric SDK for KonyStudio. Please download the SDK from the Kony Cloud Console and add as module to the Kony Project.");
     }
     return resulttable;
 };
-_invokeServiceAsyncForMF_ = function(url, inputParam, callBack) {
+_invokeServiceAsyncForMF_ = function(url, inputParam, callBack, info) {
     var operationID = inputParam["serviceID"];
     if (!operationID) {
-        resulttable = kony.net.invokeServiceAsync(url, inputParam, callBack);
+        resulttable = kony.net.invokeServiceAsync(url, inputParam, callBack, info);
     } else {
         var _mfServicesMap_ = {};
         kony.print("Getting serviceID for : " + operationID);
         var serviceID = _mfServicesMap_[operationID] && _mfServicesMap_[operationID]["servicename"];
         kony.print("Got serviceID for : " + operationID + " : " + serviceID);
-        kony.print("Async : Invoking service through mobileFabric with url : " + url + " service id : " + serviceID + " operationid : " + operationID + "\n input params" + JSON.stringify(inputParam));
+        kony.print("Async : Invoking service through Kony Fabric with url : " + url + " service id : " + serviceID + " operationid : " + operationID + "\n input params" + JSON.stringify(inputParam));
         if (serviceID && operationID) {
             var url = appConfig.secureurl;
             if (kony.mbaas) {
-                kony.mbaas.invokeMbaasServiceFromKonyStudio(url, inputParam, serviceID, operationID, callBack);
+                kony.mbaas.invokeMbaasServiceFromKonyStudio(url, inputParam, serviceID, operationID, callBack, info);
             } else {
-                alert("Unable to find the mobileFabric SDK for KonyStudio. Please download the SDK from the Kony Cloud Console and add as module to the Kony Project.");
+                alert("Unable to find the Kony Fabric SDK for KonyStudio. Please download the SDK from the Kony Cloud Console and add as module to the Kony Project.");
             }
         } else {
-            resulttable = kony.net.invokeServiceAsync(url, inputParam, callBack);
+            resulttable = kony.net.invokeServiceAsync(url, inputParam, callBack, info);
         }
     }
 };
-_invokeServiceSyncForMF_ = function(url, inputParam, isBlocking) {
+_invokeServiceSyncForMF_ = function(url, inputParam, isBlocking, info) {
     var resulttable;
     var operationID = inputParam["serviceID"];
     if (!operationID) {
@@ -203,14 +203,14 @@ _invokeServiceSyncForMF_ = function(url, inputParam, isBlocking) {
         kony.print("Getting serviceID for : " + operationID);
         var serviceID = _mfServicesMap_[operationID] && _mfServicesMap_[operationID]["servicename"];
         kony.print("Got serviceID for : " + operationID + " : " + serviceID);
-        kony.print("Invoking service through mobileFabric with url : " + url + " service id : " + serviceID + " operationid : " + operationID + "\n input params" + JSON.stringify(inputParam));
+        kony.print("Invoking service through Kony Fabric with url : " + url + " service id : " + serviceID + " operationid : " + operationID + "\n input params" + JSON.stringify(inputParam));
         if (serviceID && operationID) {
             var url = appConfig.secureurl;
             if (kony.mbaas) {
-                resulttable = kony.mbaas.invokeMbaasServiceFromKonyStudioSync(url, inputParam, serviceID, operationID);
+                resulttable = kony.mbaas.invokeMbaasServiceFromKonyStudioSync(url, inputParam, serviceID, operationID, info);
                 kony.print("Result table for service id : " + serviceID + " operationid : " + operationID + " : " + JSON.stringify(resulttable));
             } else {
-                alert("Unable to find the mobileFabric SDK for KonyStudio. Please download the SDK from the Kony Cloud Console and add as module to the Kony Project.");
+                alert("Unable to find the Kony Fabric SDK for KonyStudio. Please download the SDK from the Kony Cloud Console and add as module to the Kony Project.");
             }
         } else {
             resulttable = kony.net.invokeService(url, inputParam, isBlocking);

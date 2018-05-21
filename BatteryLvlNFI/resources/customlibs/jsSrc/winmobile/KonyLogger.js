@@ -14,3 +14,4 @@ KonyLogger.setPersistorConfig= function(persistor){};
 KonyLogger.setLogLevel= function(logLevel){};
 KonyLogger.activatePersistors= function(activatedList){};
 KonyLogger.deactivatePersistors= function(deactivatedList){};
+KonyLogger.setClaimsToken= function(claimsToken){};

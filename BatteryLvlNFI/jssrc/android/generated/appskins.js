@@ -6,6 +6,8 @@ function skinsInit() {
     CopyslForm06199358e6b6840 = "CopyslForm06199358e6b6840";
     CopyslLabel0415db0560c0c42 = "CopyslLabel0415db0560c0c42";
     CopyslLabel0d2b6fa947b9443 = "CopyslLabel0d2b6fa947b9443";
+    defTextBoxFocus = "defTextBoxFocus";
+    defTextBoxPlaceholder = "defTextBoxPlaceholder";
     SknBtnFoc0dd6b6185061f40 = "SknBtnFoc0dd6b6185061f40";
     sknBtnTouchId074c3779ee13e46 = "sknBtnTouchId074c3779ee13e46";
     SknBtntxtFoc032cea6153b2343 = "SknBtntxtFoc032cea6153b2343";

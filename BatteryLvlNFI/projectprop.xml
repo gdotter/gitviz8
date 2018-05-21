@@ -137,7 +137,7 @@
     <attributes name="KILL_BACKGROUND_PROCESSES" value="false"/>
     <attributes name="andmanifesttags" value=""/>
     <attributes name="BIND_APPWIDGET" value="false"/>
-    <attributes name="apmservicerequest" value="true"/>
+    <attributes name="apmservicerequest" value="false"/>
     <attributes name="Internet(Client)" value="true"/>
     <attributes name="wp10packagepublichernamekey" value="KonyLabs"/>
     <attributes name="SELECTED_THEME" value="default"/>

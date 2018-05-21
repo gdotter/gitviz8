@@ -1,0 +1,50 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_skin_": "s9296b912329470789939f53184c2559",
+    "_text_": "Camera Access Modes",
+    "_top_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s4dc6cbb0b4c45fa80f6f3f3d69ba77d",
+    "id": "btnAccMode",
+    "ide_onClick": "AS_Button_3d55447853434aca8e98ee247b378bf9",
+    "info": null,
+    "isvisible": true,
+    "kuid": "65671df0b7354eaea98b859ea5972f64",
+    "name": "kony.ui.Button",
+    "parent": "frmCameraOpts",
+    "pf": "frmCameraOpts",
+    "wType": "Button",
+    "zindex": 1
+}

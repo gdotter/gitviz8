@@ -1,0 +1,29 @@
+{
+    "AS_Button_b266cc4c363e4a2f8f7fc5c949c4a48e": {
+        "id": "AS_Button_b266cc4c363e4a2f8f7fc5c949c4a48e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCamOptions",
+            "type": "forms",
+            "platform": "",
+            "KUID": "p2kwiet121141612615492"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___0bba7cc2cb6f400fbd74b151d17f6128",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmCamOverlay",
+            "formKUID": "p2kwiet121141612615500",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

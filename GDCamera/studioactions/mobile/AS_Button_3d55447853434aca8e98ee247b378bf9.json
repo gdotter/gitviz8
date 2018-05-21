@@ -1,0 +1,29 @@
+{
+    "AS_Button_3d55447853434aca8e98ee247b378bf9": {
+        "id": "AS_Button_3d55447853434aca8e98ee247b378bf9",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCameraOpts",
+            "type": "forms",
+            "platform": "",
+            "KUID": "7ae566021de844778ef09ba160c9098f"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM__ide_onClick_c4cba2dec7ec4669be52233dc173772b",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmCameraAccessMode",
+            "formKUID": "fe95438aaa924239a0ff30e41daa26c7",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true,
+            "package": ""
+        }]
+    }
+}

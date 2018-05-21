@@ -1,0 +1,30 @@
+{
+    "AS_Camera_19039df90f514fc7a144206727f19cee": {
+        "id": "AS_Camera_19039df90f514fc7a144206727f19cee",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCameraOrientation",
+            "type": "forms",
+            "platform": null,
+            "KUID": "0884193cc34a4c0ab8beaa391f7a3615"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onCapture_cecd28be4d914c94a47e478bb7ac1cbb",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onCaptureLandOrientaion",
+            "display": "onCaptureLandOrientaion",
+            "inputparams": [{
+                "name": "cameraObject",
+                "value": " eventobject"
+            }],
+            "callbackType": null,
+            "disabled": null,
+            "source": "module"
+        }]
+    }
+}

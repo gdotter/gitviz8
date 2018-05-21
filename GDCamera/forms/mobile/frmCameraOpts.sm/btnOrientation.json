@@ -1,0 +1,72 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_render_": true,
+    "_right_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_skin_": "s9296b912329470789939f53184c2559",
+    "_text_": "Camera Orientation",
+    "_top_": {
+        "type": "string",
+        "value": "370dp"
+    },
+    "android": {
+        "render": false
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s4dc6cbb0b4c45fa80f6f3f3d69ba77d",
+    "id": "btnOrientation",
+    "ide_onClick": "AS_Button_7212eb06e1294d218ed12aa433d4db64",
+    "info": null,
+    "iphone": {
+        "render": true
+    },
+    "isvisible": true,
+    "kuid": "f22e842acd8c454cb6d8b1205c3af2df",
+    "name": "kony.ui.Button",
+    "parent": "frmCameraOpts",
+    "pf": "frmCameraOpts",
+    "spaan": {
+        "render": false
+    },
+    "spabb": {
+        "render": false
+    },
+    "spaip": {
+        "render": false
+    },
+    "spawinphone8": {
+        "render": false
+    },
+    "wType": "Button",
+    "winphone8": {
+        "render": false
+    },
+    "zindex": 1
+}

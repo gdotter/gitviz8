@@ -13,8 +13,8 @@ function getBatteryStatusForAndroid() {
     var context = KonyMain.getActivityContext();
     var ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
     var batteryStatusIntent = context.registerReceiver(null, ifilter);
-    var BateryLevel = batteryStatusIntent.getIntExtra(BatteryManager.EXTRA_LEVEL, 0);
-    BatteryStatus.BateryLevel = BateryLevel;
+    var BatteryLevel = batteryStatusIntent.getIntExtra(BatteryManager.EXTRA_LEVEL, 0);
+    BatteryStatus.BatteryLevel = BatteryLevel;
     var status = batteryStatusIntent.getIntExtra(BatteryManager.EXTRA_STATUS, -1);
     var isCharging = status == BatteryManager.BATTERY_STATUS_CHARGING || status == BatteryManager.BATTERY_STATUS_FULL;
     BatteryStatus.isCharging = isCharging;
@@ -33,7 +33,7 @@ function getBatteryStatusForIphone() {
     var state = currentDevice.batteryState;
     batteryLevel = (batteryLevel * 100).toFixed(1);
     batteryLevel = Math.round(batteryLevel);
-    BatteryStatus.BateryLevel = batteryLevel;
+    BatteryStatus.BatteryLevel = batteryLevel;
     if (state == 1) {
         BatteryStatus.isCharging = false;
     } else {
@@ -41,9 +41,12 @@ function getBatteryStatusForIphone() {
     }
     setValues(BatteryStatus);
 }
-
+/**
+ * @function
+ *
+ */
 function setValues(BatteryStatus) {
-    var batteryLevel = BatteryStatus.BateryLevel.toFixed();
+    var batteryLevel = BatteryStatus.BatteryLevel.toFixed();
     if (batteryLevel <= 10) {
         frmBatteryStatus.lblStatus.text = "Low Battery";
         frmBatteryStatus.flxBatteryInner.skin = "sknflxFB3B2F";

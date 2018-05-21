@@ -14,9 +14,9 @@ var appConfig = {
     isDebug: false,
     middlewareContext: "BatteryLvlNFI",
     isMFApp: false,
-    eventTypes: ["FormEntry", "ServiceRequest", "Error", "Crash"],
-    url: null,
-    secureurl: null
+    eventTypes: ["FormEntry", "Error", "Crash"],
+    url: "https://konysecloud.konycloud.com/BatteryLvlNFI/MWServlet",
+    secureurl: "https://konysecloud.konycloud.com/BatteryLvlNFI/MWServlet"
 };
 sessionID = "";
 

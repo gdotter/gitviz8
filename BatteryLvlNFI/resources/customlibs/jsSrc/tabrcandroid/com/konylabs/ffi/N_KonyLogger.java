@@ -38,7 +38,10 @@ public class N_KonyLogger extends JSLibrary {
  
 	public static final String deactivatePersistors = "deactivatePersistors";
  
-	String[] methods = { getLogLevel, flush, setConfig, setPersistorConfig, setLogLevel, activatePersistors, deactivatePersistors };
+ 
+	public static final String setClaimsToken = "setClaimsToken";
+ 
+	String[] methods = { getLogLevel, flush, setConfig, setPersistorConfig, setLogLevel, activatePersistors, deactivatePersistors, setClaimsToken };
 
 
  Library libs[] = null;
@@ -113,6 +116,15 @@ public class N_KonyLogger extends JSLibrary {
  deactivatedList6 = (Double)params[0];
  }
  ret = this.deactivatePersistors( deactivatedList6 );
+ 
+ 			break;
+ 		case 7:
+ if (paramLen != 1){ return new Object[] {new Double(100),"Invalid Params"}; }
+ java.lang.String claimsToken7 = null;
+ if(params[0] != null && params[0] != LuaNil.nil) {
+ claimsToken7 = (java.lang.String)params[0];
+ }
+ ret = this.setClaimsToken( claimsToken7 );
  
  			break;
  		default:
@@ -203,6 +215,17 @@ public class N_KonyLogger extends JSLibrary {
  
 		Object[] ret = null;
  com.kony.logger.Core.KonyJSFacade.deactivatePersistors( inputKey0.intValue() );
+ 
+ ret = new Object[]{LuaNil.nil, new Double(0)};
+ 		return ret;
+	}
+ 
+ 
+ 	public final Object[] setClaimsToken( java.lang.String inputKey0 ){
+ 
+		Object[] ret = null;
+ com.kony.logger.Core.KonyJSFacade.setClaimsToken( inputKey0
+ );
  
  ret = new Object[]{LuaNil.nil, new Double(0)};
  		return ret;
