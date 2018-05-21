@@ -1,230 +1,230 @@
 {
-    "APPLICATION_THEME": "default",
-    "appaddrkey": "",
-    "appidkey": "BatteryLvlNFI",
+    "mwaddrkey": "",
+    "wap_android360_fontsize": "12",
+    "isA11yConfigEnabled": true,
+    "watchos_notificationcentericon_42": "",
+    "wap_android440_fontsize": "12",
+    "apppackagekey": "",
+    "nativeContainerProperties": {
+        "isModified": true,
+        "isEnableJSContainer": true,
+        "isEnableJSContainerAndroid": true,
+        "isEnableJSContaineriOS": true
+    },
+    "wap_android400_fontsize": "12",
+    "wap_spaandroidtabhdpi_fontsize": "12",
+    "watchos_homeScreen40": "",
+    "cordovaVersionInfo": {
+        "useGlobalCordova": false
+    },
+    "appversionkey": "1.0.0",
+    "watchos_longlooknotificationicon_38": "",
+    "project.type": "js",
+    "startupformkey": "83e1d7625c9f4709998cce9027d67b35",
+    "wap_bb480_fontsize": "12",
+    "wap_winphone480_fontsize": "12",
+    "wap_android640_fontsize": "12",
+    "vendornamekey": "Kony",
+    "wap_android320_fontsize": "12",
+    "createdgaversion": "7.2.0",
+    "watchos_notificationcentericon_38": "",
+    "enableactionbar": false,
+    "watchos_shortlooknotificationicon_42": "",
+    "wap_android480_fontsize": "12",
+    "wap_winphone320_fontsize": "12",
+    "watchos_companionSettings3x29": "",
+    "watchos_longlooknotificationicon_42": "",
     "appmenu": {
-        "desktop": {
+        "tablet": {
             "data": [
                 {
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    },
+                    "android": {
+                        "showAsFlag": 0
+                    },
+                    "kuid": "c3612b5431b9463a8b3b24f94b172ec1",
                     "icon": {
                         "default": "option1.png"
                     },
                     "id": "appmenuitemid1",
-                    "kuid": "00a192a535e9482aaa88bdbb19b6798c",
                     "title": "Item 1"
                 },
                 {
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    },
+                    "android": {
+                        "showAsFlag": 0
+                    },
+                    "kuid": "d9db0fd49f2645d1a91676e79b599ccc",
                     "icon": {
                         "default": "option2.png"
                     },
                     "id": "appmenuitemid2",
-                    "kuid": "8f8ae83fe0214094aaf9a9fcf8913d61",
                     "title": "Item 2"
                 },
                 {
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    },
+                    "android": {
+                        "showAsFlag": 0
+                    },
+                    "kuid": "c9c74d1488ee45ed9e96f06171e07a1f",
                     "icon": {
                         "default": "option3.png"
                     },
                     "id": "appmenuitemid3",
-                    "kuid": "87a897626e804cdfb3aae837ed5ab4eb",
                     "title": "Item 3"
                 },
                 {
+                    "windows8": {
+                        "appBarButtonStyle": "No Style",
+                        "position": "BOTTOM_LEFT"
+                    },
+                    "android": {
+                        "showAsFlag": 0
+                    },
+                    "kuid": "730b77e7b1024748aec29e9b0edc4a35",
                     "icon": {
                         "default": "option4.png"
                     },
                     "id": "appmenuitemid4",
-                    "kuid": "e1be374b7b334b1391e28e10f2141807",
                     "title": "Item 4"
                 }
             ]
         },
-        "focusSkin": null,
+        "desktop": {
+            "data": [
+                {
+                    "kuid": "00a192a535e9482aaa88bdbb19b6798c",
+                    "icon": {
+                        "default": "option1.png"
+                    },
+                    "id": "appmenuitemid1",
+                    "title": "Item 1"
+                },
+                {
+                    "kuid": "8f8ae83fe0214094aaf9a9fcf8913d61",
+                    "icon": {
+                        "default": "option2.png"
+                    },
+                    "id": "appmenuitemid2",
+                    "title": "Item 2"
+                },
+                {
+                    "kuid": "87a897626e804cdfb3aae837ed5ab4eb",
+                    "icon": {
+                        "default": "option3.png"
+                    },
+                    "id": "appmenuitemid3",
+                    "title": "Item 3"
+                },
+                {
+                    "kuid": "e1be374b7b334b1391e28e10f2141807",
+                    "icon": {
+                        "default": "option4.png"
+                    },
+                    "id": "appmenuitemid4",
+                    "title": "Item 4"
+                }
+            ]
+        },
         "focusskin": null,
+        "osVersion": "iOS7",
+        "wType": "Appmenu",
+        "focusSkin": null,
         "mobile": {
             "data": [
                 {
                     "android": {
                         "showAsFlag": 0
                     },
+                    "kuid": "b76604e73762406c8678b01baed48b91",
                     "icon": {
                         "default": "option1.png"
                     },
                     "id": "appmenuitemid1",
-                    "kuid": "b76604e73762406c8678b01baed48b91",
                     "title": "Item 1"
                 },
                 {
                     "android": {
                         "showAsFlag": 0
                     },
+                    "kuid": "26bbe541d8f34493ba1f2bcf53b0bff6",
                     "icon": {
                         "default": "option2.png"
                     },
                     "id": "appmenuitemid2",
-                    "kuid": "26bbe541d8f34493ba1f2bcf53b0bff6",
                     "title": "Item 2"
                 },
                 {
                     "android": {
                         "showAsFlag": 0
                     },
+                    "kuid": "d814e3d5ebdb4aba9899cb6f5a7b1bc9",
                     "icon": {
                         "default": "option3.png"
                     },
                     "id": "appmenuitemid3",
-                    "kuid": "d814e3d5ebdb4aba9899cb6f5a7b1bc9",
                     "title": "Item 3"
                 },
                 {
                     "android": {
                         "showAsFlag": 0
                     },
+                    "kuid": "ab9a2bd111464dadbfee522632933dee",
                     "icon": {
                         "default": "option4.png"
                     },
                     "id": "appmenuitemid4",
-                    "kuid": "ab9a2bd111464dadbfee522632933dee",
                     "title": "Item 4"
                 }
             ]
         },
-        "osPlatform": "",
-        "osVersion": "iOS7",
         "skin": null,
-        "tablet": {
-            "data": [
-                {
-                    "android": {
-                        "showAsFlag": 0
-                    },
-                    "icon": {
-                        "default": "option1.png"
-                    },
-                    "id": "appmenuitemid1",
-                    "kuid": "c3612b5431b9463a8b3b24f94b172ec1",
-                    "title": "Item 1",
-                    "windows8": {
-                        "appBarButtonStyle": "No Style",
-                        "position": "BOTTOM_LEFT"
-                    }
-                },
-                {
-                    "android": {
-                        "showAsFlag": 0
-                    },
-                    "icon": {
-                        "default": "option2.png"
-                    },
-                    "id": "appmenuitemid2",
-                    "kuid": "d9db0fd49f2645d1a91676e79b599ccc",
-                    "title": "Item 2",
-                    "windows8": {
-                        "appBarButtonStyle": "No Style",
-                        "position": "BOTTOM_LEFT"
-                    }
-                },
-                {
-                    "android": {
-                        "showAsFlag": 0
-                    },
-                    "icon": {
-                        "default": "option3.png"
-                    },
-                    "id": "appmenuitemid3",
-                    "kuid": "c9c74d1488ee45ed9e96f06171e07a1f",
-                    "title": "Item 3",
-                    "windows8": {
-                        "appBarButtonStyle": "No Style",
-                        "position": "BOTTOM_LEFT"
-                    }
-                },
-                {
-                    "android": {
-                        "showAsFlag": 0
-                    },
-                    "icon": {
-                        "default": "option4.png"
-                    },
-                    "id": "appmenuitemid4",
-                    "kuid": "730b77e7b1024748aec29e9b0edc4a35",
-                    "title": "Item 4",
-                    "windows8": {
-                        "appBarButtonStyle": "No Style",
-                        "position": "BOTTOM_LEFT"
-                    }
-                }
-            ]
-        },
-        "wType": "Appmenu"
+        "osPlatform": ""
     },
-    "appnamekey": "Battery NFI Demo",
-    "apppackagekey": "",
-    "appversionkey": "1.0.0",
-    "build": "debug",
-    "category": "app",
+    "wap_spaipad_fontsize": "12",
     "cordovaModified": false,
-    "cordovaVersionInfo": {
-        "useGlobalCordova": false
-    },
-    "createdVizVersion": "7.2.1.1",
-    "createdgaversion": "7.2.0",
-    "currentgaversion": "8.1.7",
-    "defaulttheme": "defaultTheme",
-    "desktopwebbasefontsize": "12",
-    "enableCordova": false,
-    "enableIdForAutomation": false,
-    "enableactionbar": false,
-    "isA11yConfigEnabled": true,
-    "isDpScaleFactor": true,
-    "isNewAppWithRespectToAndroidPackageName": "",
-    "konyVizVersion": "8.1.7",
-    "mwaddrkey": "",
-    "mwhttpsportkey": "",
     "mwportkey": "",
-    "nativeContainerProperties": {
-        "isModified": false,
-        "isEnableJSContainer": true,
-        "isEnableJSContainerAndroid": true,
-        "isEnableJSContaineriOS": true
-    },
-    "project.type": "js",
-    "project_version": "sprint30",
-    "referenceWidth": "375",
-    "startupformkey": "83e1d7625c9f4709998cce9027d67b35",
-    "statusBarHidden": "false",
-    "vendornamekey": "Kony",
-    "wap_android240_fontsize": "12",
-    "wap_android320_fontsize": "12",
-    "wap_android360_fontsize": "12",
-    "wap_android400_fontsize": "12",
-    "wap_android440_fontsize": "12",
-    "wap_android480_fontsize": "12",
-    "wap_android640_fontsize": "12",
-    "wap_bb240_fontsize": "12",
-    "wap_bb320_fontsize": "12",
-    "wap_bb360_fontsize": "12",
-    "wap_bb400_fontsize": "12",
+    "watchos_watchMarketing1x": "",
+    "mwhttpsportkey": "",
     "wap_bb440_fontsize": "12",
-    "wap_bb480_fontsize": "12",
-    "wap_ip_fontsize": "12",
-    "wap_spaandroidtab_fontsize": "12",
-    "wap_spaandroidtabhdpi_fontsize": "12",
+    "wap_bb400_fontsize": "12",
+    "appidkey": "BatteryLvlNFI",
+    "statusBarHidden": "false",
+    "wap_bb360_fontsize": "12",
+    "isNewAppWithRespectToAndroidPackageName": "",
+    "wap_spawindowstab_fontsize": "12",
+    "defaulttheme": "defaultTheme",
+    "watchos_companionSettings2x29": "",
+    "watchos_shortlooknotificationicon_38": "",
+    "appaddrkey": "",
+    "appnamekey": "Battery NFI Demo",
+    "currentgaversion": "8.1.7",
+    "enableCordova": false,
+    "wap_bb320_fontsize": "12",
+    "enableIdForAutomation": false,
+    "wap_bb240_fontsize": "12",
+    "desktopwebbasefontsize": "12",
+    "wap_android240_fontsize": "12",
     "wap_spaandroidtabldpi_fontsize": "12",
     "wap_spaandroidtabmdpi_fontsize": "12",
-    "wap_spaipad_fontsize": "12",
-    "wap_spawindowstab_fontsize": "12",
-    "wap_winphone320_fontsize": "12",
-    "wap_winphone480_fontsize": "12",
-    "watchos_companionSettings2x29": "",
-    "watchos_companionSettings3x29": "",
-    "watchos_homeScreen40": "",
-    "watchos_longlooknotificationicon_38": "",
-    "watchos_longlooknotificationicon_42": "",
-    "watchos_notificationcentericon_38": "",
-    "watchos_notificationcentericon_42": "",
-    "watchos_shortlooknotificationicon_38": "",
-    "watchos_shortlooknotificationicon_42": "",
-    "watchos_watchMarketing1x": "",
-    "winmobileguidkey": ""
+    "konyVizVersion": "8.1.7",
+    "isDpScaleFactor": true,
+    "wap_spaandroidtab_fontsize": "12",
+    "referenceWidth": "375",
+    "winmobileguidkey": "",
+    "APPLICATION_THEME": "default",
+    "build": "debug",
+    "project_version": "sprint30",
+    "wap_ip_fontsize": "12",
+    "category": "app",
+    "createdVizVersion": "7.2.1.1"
 }
