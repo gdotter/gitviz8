@@ -93,7 +93,7 @@
     "startupformkey": "38041d9fd81a4d869d01d64eb0c7f0d1",
     "statusBarHidden": "false",
     "tabletstartupformkey": "p2kwiet121141612615477",
-    "vendornamekey": "KonyLabs",
+    "vendornamekey": "Kony",
     "wap_android240_fontsize": "10",
     "wap_android320_fontsize": "12",
     "wap_android360_fontsize": "13",
@@ -125,5 +125,10 @@
     "watchos_shortlooknotificationicon_38": "",
     "watchos_shortlooknotificationicon_42": "",
     "winmangotiletitlekey": "SampleCameraApp",
-    "winmobileguidkey": "cec95c7d-d678-44a7-81c7-fd43c07b5427"
+    "winmobileguidkey": "cec95c7d-d678-44a7-81c7-fd43c07b5427",
+    "cordovaModified": false,
+    "watchos_companionSettings3x29": "",
+    "watchos_homeScreen40": "",
+    "watchos_companionSettings2x29": "",
+    "watchos_watchMarketing1x": ""
 }
